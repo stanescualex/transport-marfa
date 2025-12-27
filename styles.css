@@ -888,3 +888,7 @@ i.fa-phone-square {
 	text-decoration: none;
 	font-weight: bold;
 }
+
+.dynamic-text {
+	font-size: 3px;
+}

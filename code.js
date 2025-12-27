@@ -72,6 +72,9 @@ setInterval(function () {
   $('.call-btn').toggleClass('blink-effect-button');
 }, 700);
 
+$(".dynamic-text").text("Oferta valabila pana la: " +  new Date()
+  .toLocaleDateString('ro-RO'))
+
 window.addEventListener("scroll", reveal, { passive: true });
 
 var map = null;
