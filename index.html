@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 
 <body class="bg-dark">
@@ -70,9 +70,12 @@
                     <div class="carousel-item active"
                         style="background-image: url('images/sand-road-asphalt-transport-construction-vehicle-835459-pxhere.com.jpg');">
                         <div class="carousel-caption text-center">
-                            <div class="phone-contact">
-                                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                                <a href="tel:40769498604">0769 498 604</a>
+                            <div class="container phone-carousel">
+                                <div class="row">
+                                    <a href="tel:40769498604" id="blink_effect_button" class="call-btn">
+                                        📞 Sună acum – 20% reducere
+                                    </a>
+                                </div>
                             </div>
                             <h1>Transport nisip București – Ilfov</h1>
                             <p>Asigurăm transport rapid de nisip pentru construcții, direct la locația ta, cu camioane
@@ -83,9 +86,12 @@
                     <div class="carousel-item"
                         style="background-image: url('images/sand-asphalt-truck-vehicle-soil-bulldozer-687469-pxhere.com.jpg')">
                         <div class="carousel-caption text-center">
-                            <div class="phone-contact">
-                                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                                <a href="tel:40723292648">0769 498 604</a>
+                            <div class="container phone-carousel">
+                                <div class="row">
+                                    <a href="tel:40769498604" id="blink_effect_button" class="call-btn">
+                                        📞 Sună acum – 20% reducere
+                                    </a>
+                                </div>
                             </div>
                             <h1>Transport pietriș și piatră concasată</h1>
                             <p>Livrăm pietriș și piatră concasată pentru șantiere, fundații și amenajări, cu respectarea
@@ -96,9 +102,12 @@
                     <div class="carousel-item"
                         style="background-image: url('images/work-sand-road-ground-building-asphalt-510374-pxhere.com.jpg')">
                         <div class="carousel-caption text-center">
-                            <div class="phone-contact">
-                                <i class="fa fa-phone-square" aria-hidden="true"></i>
-                                <a href="tel:40769498604">0769 498 604</a>
+                            <div class="container phone-carousel">
+                                <div class="row">
+                                    <a href="tel:40769498604" id="blink_effect_button" class="call-btn">
+                                        📞 Sună acum – 20% reducere
+                                    </a>
+                                </div>
                             </div>
                             <h1>Soluții profesionale de transport materiale</h1>
                             <p>Oferim servicii complete de transport materiale de construcții, adaptate nevoilor tale,
@@ -142,7 +151,7 @@
         </div>
 
         <div id="benefits" class="container content section">
-            
+
             <div class="container my-5">
                 <div class="row text-center ">
 
@@ -178,60 +187,102 @@
 
         </div>
         <div id="galery" class="container content">
-           <div class="container my-5 reveal">
-            <div class="row g-3">
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.02 (2).jpeg" class="img-fluid rounded img-galery" alt="Transport balastru">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.03.jpeg" class="img-fluid rounded img-galery" alt="Transport nisip">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.05 (1).jpeg" class="img-fluid rounded img-galery" alt="Transport pietriș">
-                </div>
+            <div class="container my-5 reveal">
+                <div class="row g-3">
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.36.jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport balastru">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (9).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport nisip">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (3).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pietriș">
+                    </div>
 
-            </div>
-        </div>
-
-        <div id='loadMoreContainer' class="container space">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 reveal">
-                    <button id="loadMore" class="custom-button">Incarca mai mult</button>
-                </div>
-
-            </div>
-        </div>
-
-        <div id="galeryMore" class="hidden container my-5">
-            <div class="row g-3 reveal">
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.00.jpeg" class="img-fluid rounded img-galery" alt="Transport balastru">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.01 (1).jpeg" class="img-fluid rounded img-galery" alt="Transport nisip">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.01 (2).jpeg" class="img-fluid rounded img-galery" alt="Transport pietriș">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.01 (3).jpeg" class="img-fluid rounded img-galery" alt="Transport pământ">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.01.jpeg" class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <img src="./images/WhatsApp Image 2025-12-25 at 14.59.02 (1).jpeg" class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
                 </div>
             </div>
-            <div class="container space">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 reveal">
-                    <button id="hideMore" class="custom-button">Ascundeti</button>
-                </div>
 
+            <div id='loadMoreContainer' class="container space">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 reveal">
+                        <button id="loadMore" class="custom-button">Incarca mai mult</button>
+                    </div>
+
+                </div>
             </div>
-        </div>
-        </div>
+
+            <div id="galeryMore" class="hidden container my-5">
+                <div class="row g-3 reveal">
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (2).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport balastru">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (4).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport nisip">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (5).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pietriș">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (6).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (7).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37 (8).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (3).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pietriș">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38.jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (9).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.37.jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (4).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (5).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pietriș">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (6).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ">
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <img src="./images/WhatsApp Image 2025-12-27 at 17.32.38 (7).jpeg"
+                            class="img-fluid rounded img-galery" alt="Transport pământ vegetal">
+                    </div>
+
+                </div>
+                <div class="container space">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 reveal">
+                            <button id="hideMore" class="custom-button">Ascundeti</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -242,16 +293,19 @@
                     <div class="col-md-6 mb-4 reveal">
                         <h1 class="reveal">Servicii</h1>
                     </div>
-                    
+
                 </div>
-                 
+
                 <div class="row text-center ">
 
                     <div class="col-md-6 mb-4 reveal">
                         <div class="p-4 bg-light rounded shadow h-100">
                             <i class="fa fa-truck fa-3x text-warning mb-3"></i>
                             <h4 class="text-benefit">Transport balastru</h4>
-                            <p>Oferim servicii rapide și sigure de transport balastru pentru construcții civile și industriale. Balastrul este ideal pentru fundații, drumuri, platforme și lucrări de infrastructură. Asigurăm livrare promptă, în cantitățile solicitate, direct la locația clientului.</p>
+                            <p>Oferim servicii rapide și sigure de transport balastru pentru construcții civile și
+                                industriale. Balastrul este ideal pentru fundații, drumuri, platforme și lucrări de
+                                infrastructură. Asigurăm livrare promptă, în cantitățile solicitate, direct la locația
+                                clientului.</p>
                         </div>
                     </div>
 
@@ -259,16 +313,20 @@
                         <div class="p-4 bg-light rounded shadow h-100">
                             <i class="fa fa-cubes fa-3x text-warning mb-3"></i>
                             <h4 class="text-benefit">Transport nisip</h4>
-                            <p>Asigurăm transport nisip de calitate pentru construcții, amenajări și lucrări diverse. Nisipul este potrivit pentru betoane, tencuieli, pavaje sau umpluturi. Livrăm rapid și eficient, respectând cerințele fiecărui proiect.</p>
+                            <p>Asigurăm transport nisip de calitate pentru construcții, amenajări și lucrări diverse.
+                                Nisipul este potrivit pentru betoane, tencuieli, pavaje sau umpluturi. Livrăm rapid și
+                                eficient, respectând cerințele fiecărui proiect.</p>
                         </div>
                     </div>
                 </div>
-                     <div class="row text-center ">
+                <div class="row text-center ">
                     <div class="col-md-6 mb-4 reveal">
                         <div class="p-4 bg-light rounded shadow h-100">
                             <i class="fa fa-road fa-3x text-warning mb-3"></i>
                             <h4 class="text-benefit">Transport pietriș</h4>
-                            <p>Punem la dispoziție transport pietriș pentru fundații, alei, drumuri și alte lucrări de construcții. Pietrișul oferă rezistență și stabilitate, fiind esențial în multe proiecte. Garantăm livrare sigură și la timp.
+                            <p>Punem la dispoziție transport pietriș pentru fundații, alei, drumuri și alte lucrări de
+                                construcții. Pietrișul oferă rezistență și stabilitate, fiind esențial în multe
+                                proiecte. Garantăm livrare sigură și la timp.
                             </p>
                         </div>
                     </div>
@@ -277,7 +335,9 @@
                         <div class="p-4 bg-light rounded shadow h-100">
                             <i class="fa fa-leaf fa-3x text-warning mb-3"></i>
                             <h4 class="text-benefit">Transport pământ</h4>
-                            <p>Oferim transport pământ pentru umpluturi, nivelări de teren și amenajări exterioare. Serviciul este ideal pentru curți, grădini sau lucrări de construcții. Ne adaptăm volumului necesar și livrăm eficient.
+                            <p>Oferim transport pământ pentru umpluturi, nivelări de teren și amenajări exterioare.
+                                Serviciul este ideal pentru curți, grădini sau lucrări de construcții. Ne adaptăm
+                                volumului necesar și livrăm eficient.
                             </p>
                         </div>
                     </div>
@@ -292,10 +352,10 @@
         </div>
 
         <div id="Contact" class="container content space">
-            
-             <h2 class="text-center text-benefit mb-5 reveal">Contactează-ne</h2>
+
+            <h2 class="text-center text-benefit mb-5 reveal">Contactează-ne</h2>
             <div class="container my-5">
-                   
+
                 <div class="row justify-content-center g-5">
 
                     <!-- Telefon -->

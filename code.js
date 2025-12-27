@@ -67,6 +67,19 @@ function reveal() {
 
   }, 1000);
 
+
+    let blinking_text_button = $('#blink_effect_button');
+  setInterval(function() {
+    if(blinking_text_button.hasClass("call-btn")){
+      blinking_text_button.removeClass('call-btn')
+      blinking_text_button.addClass('blink-effect-button')
+    }else {
+      blinking_text_button.removeClass('blink-effect-button')
+      blinking_text_button.addClass('call-btn')
+    }
+
+  }, 700);
+
 window.addEventListener("scroll", reveal, {passive: true});
 
   var map = L.map('map').setView([44.4268, 26.1025], 10);
